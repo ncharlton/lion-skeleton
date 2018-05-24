@@ -13,9 +13,6 @@ Node.js v8.*
 NPM v5.6
 Composer v1.6.*
 
-```
-Give examples
-```
 
 ### Installing
 
