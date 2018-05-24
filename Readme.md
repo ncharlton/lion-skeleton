@@ -60,7 +60,7 @@ php bin/console server:run
 
 ```
 # http://localhost:8080
-npm run server
+npm run serve
 ```
 
 
