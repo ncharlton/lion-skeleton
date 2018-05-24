@@ -1,0 +1,16 @@
+header.top-bar {
+  background: #3b5b52;
+  color: #fff;
+  padding: 20px;
+
+
+
+  & .logo {
+    float: left;
+
+    & a {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}

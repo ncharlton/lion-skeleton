@@ -1,0 +1,17 @@
+/**
+  Stylesheet for the navigation bar
+
+  Component: main/Navigation.vue
+*/
+
+ul.top-nav {
+  & .nav-item {
+    margin-left: 20px;
+  }
+
+  & li {
+    & a {
+      color: #fff;
+    }
+  }
+}

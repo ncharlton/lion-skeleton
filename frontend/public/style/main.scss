@@ -1,0 +1,43 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "_forms.scss";
+@import "components/header";
+@import "components/navigation";
+@import "components/register";
+@import "components/login";
+
+.show {
+  display: block !important;
+  transition: all 0.3s ease;
+}
+
+.hide {
+  display: none !important;
+  transition: all 0.3s ease;
+}
+
+.spinner {
+  margin: 20px auto;
+  margin-bottom: 0;
+  width: 57px;
+}
+
+.vdp-datepicker {
+  & input {
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    display: block;
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+
+    :hover  {
+
+    }
+  }
+
+  & input:hover {
+    background: #fafafa;
+    transition: 0.2s all ease;
+  }
+}
